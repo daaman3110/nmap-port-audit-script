@@ -2,7 +2,7 @@
 
 # Step 1: Mention the IP Range:
 ip_range="192.168.0.100-110"
-report_file="/home/daamanpatel/port_audit_report.txt"
+report_file="/$HOME/port_audit_report.txt"
 
 #Step 2: Mention the timestamp
 echo "============================= Port Scan Audit - $(date)=============================" >> $report_file
